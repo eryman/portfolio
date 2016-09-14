@@ -1,0 +1,48 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+svg {
+	width: 100px;
+}
+
+hr {
+	height: 3px;
+	background-color: #bbb;
+}
+
+#top {
+	margin-top: 20px;
+}
+
+#main-title {
+	font-weight: 100;
+	font-size: 60px;
+}
+
+.sub-title {
+	font-weight: 300;
+	font-size: 20px;
+	margin: 0;
+}
+
+.center {
+	text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+	div.container {
+		width: 800px;
+	}
+	.container {
+		border-right: 1px #e2e2e2 solid;
+		border-left: 1px #e2e2e2 solid;
+		box-shadow: 5px 5px 5px #e2e2e2;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	h1 {
+		font-size: 40px;
+	}
+}
